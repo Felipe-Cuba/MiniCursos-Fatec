@@ -1,0 +1,72 @@
+*,
+input,
+label {
+  color: rgb(225, 225, 230);
+}
+
+select,
+option {
+  color: black;
+}
+
+body {
+  background-color: #121214;
+  height: 100vh;
+  z-index: 1;
+}
+
+body .background-color-bottom {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  background-color: #0e0e0f;
+  width: 100vw;
+  height: 65vh;
+  border-top: 1px solid rgb(50, 50, 56);
+}
+
+body .background-color-bottom #fields-to-complete {
+  position: fixed;
+  top: 2%;
+  right: 10%;
+}
+
+body .container {
+  background-color: #202024;
+  z-index: 2;
+}
+
+.form-control {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(111, 111, 114);
+  border-radius: 0;
+  height: 0;
+}
+
+.form-control label,
+.form-control {
+  color: rgb(225, 225, 230);
+}
+
+.form-floating > input:focus {
+  background-color: transparent;
+  color: rgb(225, 225, 230);
+}
+
+.container form {
+  width: 80%;
+}
+
+.line-to-separate {
+  color: rgb(111, 111, 114);
+  transform: rotate(90deg);
+}
+
+.line-to-separate::before {
+  content: '___________________________________';
+}
+
+.img-card img {
+  max-width: 40px;
+}
